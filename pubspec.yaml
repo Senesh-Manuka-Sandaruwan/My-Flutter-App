@@ -1,0 +1,148 @@
+name: my_flutter_app
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.4.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # Adding the assets section to include the necessary images
+  assets:
+    - lib/assets/images/banner.png
+    - lib/assets/images/signup_background.jpg
+    - lib/assets/images/c1.png
+    - lib/assets/images/c2.png
+    - lib/assets/images/c3.png
+    - lib/assets/images/s1.png
+    - lib/assets/images/s2.png
+    - lib/assets/images/ch1.png
+    - lib/assets/images/ch2.png
+
+    - lib/assets/images/ch4.webp
+    - lib/assets/images/ch5.webp
+    - lib/assets/images/ch6.webp
+    - lib/assets/images/ch7.jpg
+    - lib/assets/images/ch8.jpg
+    - lib/assets/images/ch9.png
+    - lib/assets/images/ch10.png
+    - lib/assets/images/a1.png
+    - lib/assets/images/a2.png
+    - lib/assets/images/sg1.png
+    - lib/assets/images/s21.png
+    - lib/assets/images/choco1.png
+    - lib/assets/images/choco2.png
+    - lib/assets/images/choco3.png
+    - lib/assets/images/gt.png
+    - lib/assets/images/k1.png
+    - lib/assets/images/k2.png
+    - lib/assets/images/k3.png
+    - lib/assets/images/k4.png
+    - lib/assets/images/k5.png
+    - lib/assets/images/k6.png
+    - lib/assets/images/k7.png
+    - lib/assets/images/k8.png
+
+    - lib/assets/images/m1.png
+    - lib/assets/images/m2.png
+    - lib/assets/images/m3.png
+    - lib/assets/images/m4.png
+    - lib/assets/images/m5.png
+    - lib/assets/images/m6.png
+    - lib/assets/images/m7.png
+
+    - lib/assets/images/mk1.png
+    - lib/assets/images/mk2.png
+    - lib/assets/images/mk3.png
+    - lib/assets/images/mk4.png
+    - lib/assets/images/mk5.png
+    - lib/assets/images/mk6.png
+    - lib/assets/images/mk7.png
+
+    - lib/assets/images/t1.png
+    - lib/assets/images/t2.png
+    - lib/assets/images/t3.png
+    - lib/assets/images/t4.png
+    - lib/assets/images/t5.png
+    - lib/assets/images/t6.png
+    - lib/assets/images/t7.png
+    - lib/assets/images/t8.png
+
+    - lib/assets/images/t01.png
+    - lib/assets/images/t02.png
+    - lib/assets/images/t03.png
+    - lib/assets/images/t04.png
+    - lib/assets/images/t05.png
+    - lib/assets/images/t06.png
+    - lib/assets/images/t07.png
+    - lib/assets/images/t08.png
+
+    - lib/assets/images/sn1.png
+    - lib/assets/images/sn2.png
+    - lib/assets/images/sn3.png
+    - lib/assets/images/sn4.png
+    - lib/assets/images/sn5.png
+    - lib/assets/images/sn6.png
+    - lib/assets/images/sn7.png
+    - lib/assets/images/sn8.png
+
+    - lib/assets/images/sw1.jpeg
+    - lib/assets/images/sw2.jpg
+    - lib/assets/images/sw3.jpg
+    - lib/assets/images/sw4.jpg
+    - lib/assets/images/sw6.jpg
+    - lib/assets/images/sw7.png
+    - lib/assets/images/sw8.jpg
+    - lib/assets/images/sw9.png
