@@ -5,7 +5,6 @@ import 'package:my_flutter_app/screens/Get.dart';
 import 'package:my_flutter_app/screens/chocolate.dart';
 import 'package:my_flutter_app/screens/login.dart';
 import 'package:my_flutter_app/screens/signup.dart';
-import 'package:my_flutter_app/screens/buy.dart';
 import 'package:my_flutter_app/screens/home.dart';
 import 'package:my_flutter_app/providers/theme_provider.dart';
 
