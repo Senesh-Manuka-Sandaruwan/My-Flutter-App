@@ -160,7 +160,7 @@ class _HomePageState extends State<HomePage> {
                     child: Text(
                       'CRUNCHY SWEETS',
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 48,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),
